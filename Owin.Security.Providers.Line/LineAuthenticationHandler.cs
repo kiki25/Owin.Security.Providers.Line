@@ -17,8 +17,8 @@ namespace Owin.Security.Providers.Line
     public class LineAuthenticationHandler : AuthenticationHandler<LineAuthenticationOptions>
     {
         private const string XmlSchemaString = "http://www.w3.org/2001/XMLSchema#string";
-        private const string TokenEndpoint = "https://api.line.me/v1/oauth/accessToken";
-        private const string ProfileEndpoint = "https://api.line.me/v1/profile";
+        private const string TokenEndpoint = "https://api.line.me/v2/oauth/accessToken";
+        private const string ProfileEndpoint = "https://api.line.me/v2/profile";
 
         private readonly HttpClient _httpClient;
         private readonly ILogger _logger;

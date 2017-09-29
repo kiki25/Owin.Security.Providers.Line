@@ -65,8 +65,8 @@ namespace SampleApplication
             //    ClientSecret = ""
             //});
 
-            var id = "channelId";
-            var secret = "channelSecret";
+            var id = "1512887205";
+            var secret = "13ef3035d331a633597b4b860f970a3f";
             app.UseLineAuthentication(channelId: id, channelSecret: secret);
         }
     }
